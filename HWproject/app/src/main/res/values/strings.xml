@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HWproject</string>
+    <string name="top_score">Top Score</string>
+    <string name="top_10_scores_are">Top 10 Scores are:</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/start_b"
+        android:layout_width="290dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="183dp"
+        android:layout_marginLeft="50dp"
+        android:background="@null"
+        android:src="@drawable/mainf" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Save The Fish"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#DD0F0F"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:text="Click the fish to Start"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#C34949" />
+
+    <Button
+        android:id="@+id/showScoresButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="520dp"
+        android:backgroundTint="#E86161"
+        android:padding="10dp"
+        android:text="Show Top 10 Scores"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#F4EFEF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="#E86161"
+        android:onClick="exitApp"
+        android:padding="10dp"
+        android:text="Exit"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>
